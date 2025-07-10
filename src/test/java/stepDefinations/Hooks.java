@@ -8,7 +8,7 @@ public class Hooks {
 
 	@Before("@DeletePlace")
 	public void beforeScenario() throws IOException
-	{		//execute this code only when place id is null
+	{	//execute this code only when place id is null
 		//write a code that will give you place id
 		
 		StepDefination m =new StepDefination();
