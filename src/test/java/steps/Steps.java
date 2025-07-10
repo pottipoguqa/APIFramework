@@ -76,8 +76,4 @@ public class Steps {
                         "}").when().post("/contacts").then().assertThat().statusCode(201);
 
     }
-    @Then("Verify the contact is added")
-    public void verify_the_contact_is_added() {
-
-    }
 }

@@ -5,4 +5,3 @@ Feature: Validate create contacts
   Scenario: Authorized user add contact into contactList
     Given A list of contacts are available
     When I add contact into contactList
-    Then Verify the contact is added
